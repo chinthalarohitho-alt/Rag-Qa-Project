@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
-        jdk 'JDK 17'
+        maven 'maven'
+        // jdk 'JDK 17' // Commented out as no JDK installations are configured in Jenkins
     }
 
     stages {
