@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RAG QA Test Suite" thread-count="5" parallel="methods">
+
+    <test name="Google Search BDD Tests">
+        <classes>
+            <class name="com.rag.runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
