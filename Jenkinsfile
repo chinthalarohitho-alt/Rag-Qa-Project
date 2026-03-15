@@ -3,7 +3,6 @@ pipeline {
 
     tools {
         maven 'maven'
-        // jdk 'JDK 17' // Commented out as no JDK installations are configured in Jenkins
     }
 
     stages {
